@@ -9,7 +9,7 @@ export default class home extends Component {
 		return (
 			<div>
 				
-				<div className="container-fluid">
+				<div>
 					<Carousel
 						indicators={false}
 					
