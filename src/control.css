@@ -1,0 +1,39 @@
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+  
+    background-color: rgba(0, 0, 0, 0.3);
+    /* background-size: 100%, 100%; */
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px; 
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+.carosels
+    {
+        /* background-Image:
+                        linear-gradient(to left, rgba(238,238,238,0), #f3f3f3 30px); */
+                        border-radius:8px;
+    }
+.cardStyle{
+    width: 100%;
+    height:100%;
+    background-color:transparent;
+     border:none
+}
