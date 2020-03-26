@@ -8,6 +8,8 @@ import movies from './Movies';
 import sports from './Sports';
 import news from './News';
 import premium from './Premium';
+import { FaSistrix } from 'react-icons/fa';
+
 
 export default class App extends Component {
 	render() {
@@ -69,12 +71,24 @@ export default class App extends Component {
                   <Nav.Link href="/hotel">Hotel Booking</Nav.Link> */}
 								</Nav>
 								<Form inline>
-									<Form.Control
+									<div style={{width:"360px",borderBottom:"1px solid #c1c1c1"}}>
+									<input
 										type="text"
 										placeholder="Search"
-										className="mr-sm-2"
-									/>
-									<Button variant="outline-success">Search</Button>
+										// className="mr-sm-2"
+										style={{border:"none",fontFamily: '"Roboto","HelveticaNeue-Light",sans-serif',width:"95%",color:"#212121",fontSize:"16px",height:"32px",padding:"0px 28px 0px 0px",outline:"0"}}
+									
+									/><span style={{width:"5%"}}>
+									<FaSistrix/></span>
+									</div>
+									
+									
+									
+									<div >
+									<img src="https://www.hotstar.com/assets/c724e71754181298e3f835e46ade0517.svg" 
+									alt="..."
+									style={{marginLeft:"15px",width:"30px",height:"30px",display:"inline-block",borderRadius:"50%"}} />
+									</div>
 								</Form>
 							</Navbar.Collapse>
 						</Navbar>
