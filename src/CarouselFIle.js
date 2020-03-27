@@ -28,7 +28,7 @@ export default class CarouselFIle extends Component {
 									width: this.state.imgWidth,
 									borderRadius: '8px'
 								}}
-								onMouseEnter={this.handleMouseEnter}
+							
 							/>
 						</Col>
 						<Col>

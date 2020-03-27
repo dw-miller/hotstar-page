@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Tv extends Component {
+export default class ForTest extends Component {
     render() {
         return (
             <div>
-                Welcome to TV
+                for testing only
             </div>
         )
     }

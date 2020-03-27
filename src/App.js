@@ -9,6 +9,7 @@ import sports from './Sports';
 import news from './News';
 import premium from './Premium';
 import { FaSistrix } from 'react-icons/fa';
+import Footer from './Footer'
 
 
 export default class App extends Component {
@@ -67,15 +68,14 @@ export default class App extends Component {
 									>
 										Premium
 									</Nav.Link>
-									{/* <Nav.Link href="/train">Train Booking</Nav.Link>
-                  <Nav.Link href="/hotel">Hotel Booking</Nav.Link> */}
+							
 								</Nav>
 								<Form inline>
 									<div style={{width:"360px",borderBottom:"1px solid #c1c1c1"}}>
 									<input
 										type="text"
 										placeholder="Search"
-										// className="mr-sm-2"
+										
 										style={{border:"none",fontFamily: '"Roboto","HelveticaNeue-Light",sans-serif',width:"95%",color:"#212121",fontSize:"16px",height:"32px",padding:"0px 28px 0px 0px",outline:"0"}}
 									
 									/><span style={{width:"5%"}}>
@@ -104,6 +104,7 @@ export default class App extends Component {
 						</Switch>
 					</div>
 				</Router>
+				<Footer />
 			</div>
 		);
 	}
