@@ -13,7 +13,7 @@ export default class home extends Component {
 						<Carousel.Item>
 							<div
 								style={{
-									backgroundColor: 'rgb(38, 25, 46)',
+									backgroundColor: 'rgb(29, 46, 74)',
 									height: '400px',
 									display: 'flex'
 								}}
@@ -26,23 +26,22 @@ export default class home extends Component {
 										width: '300px'
 									}}
 								>
-									<h3>San Francisco 2.0</h3>
+									<h3>Devon Ke Dev... Mahadev</h3>
 									<p style={{ color: 'antiquewhite' }}>
-										<span>Englis . </span>
-										<span>Documentary . </span>
-										<span>2015</span>
+										<span>Life Ok . </span>
+										<span>Hindi . </span>
+										<span>Mythology</span>
 									</p>
 									<p style={{ color: 'antiquewhite' }}>
-										Acclaimed filmmaker Alexandra Pelosi takes a look at the
-										future of San Francisco, where the tech boom is causing
-										economic disruption in the counterculture capital of the
-										U.S.
+										He is the Supreme Being, the epitome of benevolence and the destroyer of evil. 
+										This mesmerizing story of the Lord and his avatars, traces his journey from being 
+										an ascetic to a family man after he marries Parvati - a union that shaped the universe!
 									</p>
 								</div>
 								<div
 									style={{
 										background:
-											'linear-gradient(to left, rgba(0, 0, 0, 0), rgb(38, 25, 46))',
+											'linear-gradient(to left, rgba(0, 0, 0, 0), rgb(29, 46, 74))',
 										right: '694px',
 										width: '200px',
 										height: 'inherit',
@@ -51,7 +50,7 @@ export default class home extends Component {
 								></div>
 								<img
 									className="d-block"
-									src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4480/584480-h"
+									src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/5500/195500-h"
 									alt="..."
 									style={{
 										borderRadius: '8px',

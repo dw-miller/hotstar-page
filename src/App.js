@@ -8,6 +8,7 @@ import movies from './Movies';
 import sports from './Sports';
 import news from './News';
 import premium from './Premium';
+import Detail from './Detail';
 import { FaSistrix } from 'react-icons/fa';
 import Footer from './Footer'
 
@@ -21,7 +22,7 @@ export default class App extends Component {
 						<Navbar variant="light" expand="lg">
 							<Navbar.Brand href="/">
 								<img
-									src="https://www.hotstar.com/assets/e4759bb703b71dae6bed5057c7105b32.svg"
+									src="https://www.hotstar.com/assets/c326c351ba2c65242cd03b18f4ccda8e.svg"
 									alt="hotstar"
 								/>
 							</Navbar.Brand>
@@ -101,6 +102,7 @@ export default class App extends Component {
 							<Route path="/sports" component={sports}></Route>
 							<Route path="/news" component={news}></Route>
 							<Route path="/premium" component={premium}></Route>
+							<Route path="/detail" component={Detail}></Route>
 						</Switch>
 					</div>
 				</Router>

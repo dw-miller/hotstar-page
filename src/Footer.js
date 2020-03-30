@@ -10,7 +10,7 @@ const style = {
 	// borderTop: "1px solid #E7E7E7",
 
 	padding: '20px',
-	position: 'relative',
+	position: 'fixed',
 	left: '0',
 	bottom: '0',
 	maxHeight: '150px',
